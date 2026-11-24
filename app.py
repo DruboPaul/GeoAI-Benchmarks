@@ -147,7 +147,7 @@ with st.sidebar:
     """)
 
     st.markdown("---")
-    st.caption("Powered by OpenWorldEngineer & Mercor Framework")
+    st.caption("Standard: Geospatial AI & Urban Ecology Benchmark Protocol")
 
 
 # ===========================================================================
@@ -531,8 +531,8 @@ elif "1. End-to-End" in mode:
 # ---------------------------------------------------------------------------
 st.markdown("---")
 st.markdown("""
-<div style="text-align: center; color: #64748b; font-size: 12px; margin-top: 10px;">
-    Urban Forest Structure & Carbon Benchmark Suite • Dhaka Metropolitan Area • OpenWorldEngineer Protocol<br>
-    Scientific Citation: Majumder et al. (2026), <em>Scientific Reports</em>, DOI: 10.1038/s41598-026-46985-x
+<div style="text-align: center; color: #475569; font-size: 11px; margin-top: 10px; line-height: 1.6;">
+    <strong>Computational Pipeline:</strong> 5×4 Spatial Disjoint Grid Partitioning • Multi-Sensor Bilinear Extraction (30m Window) • Bounded Normalized RMSE Metric<br>
+    <span style="color: #94a3b8;">Zero Spatial Autocorrelation Leakage • Stratum × Land-Use Baseline Calibration • Fully Deterministic Verification</span>
 </div>
 """, unsafe_allow_html=True)
