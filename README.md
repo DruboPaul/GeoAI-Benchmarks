@@ -1,3 +1,15 @@
+---
+title: GeoAI Benchmarks
+emoji: 🌿
+colorFrom: green
+colorTo: blue
+sdk: streamlit
+sdk_version: "1.28.0"
+app_file: app.py
+pinned: false
+license: mit
+---
+
 # 🌳 Drubo Live — Urban Forest Benchmark Platform
 
 ## ঢাকার নগর বনের গঠন ও কার্বন ভাণ্ডার বেঞ্চমার্ক প্ল্যাটফর্ম
