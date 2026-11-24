@@ -1,0 +1,20 @@
+# Drubo Live — Urban Forest Benchmark Platform
+# Core dependencies
+streamlit>=1.28.0
+pandas>=1.5.0
+numpy>=1.23.0
+Pillow>=9.0.0
+
+# Interactive charts & maps
+plotly>=5.15.0
+
+# Optional: Full GeoTIFF support (install if deploying with real rasters)
+# rasterio>=1.3.0
+# geopandas>=0.13.0
+
+# Optional: YAML metadata parsing
+pyyaml>=6.0
+
+# Optional: Folium maps (alternative to Plotly mapbox)
+# folium>=0.14.0
+# streamlit-folium>=0.13.0
