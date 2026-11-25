@@ -141,8 +141,8 @@ with st.sidebar:
     st.markdown("#### Research Metadata")
     st.markdown("""
     - **Study Area:** Dhaka Metropolitan Area, Bangladesh
-    - **Inventory Size:** 697 Field Plots
-    - **Sensors:** Sentinel-2 L2A, Sentinel-1 GRD, 1m CHM
+    - **Inventory Size:** 100 Curated Field Plots
+    - **Sensors:** Sentinel-2 L2A, Sentinel-1 RTC, 1m CHM
     - **Standard:** IPCC Tier 2 / i-Tree Eco v6.0
     """)
 
@@ -363,9 +363,10 @@ elif "1. End-to-End" in mode:
         </div>
         """, unsafe_allow_html=True)
     elif s1_done and not s3_done:
-        st.markdown("""
+        n_plots = len(st.session_state["survey_df"])
+        st.markdown(f"""
         <div class="console-box">
-            <span style="color: #34d399;">[STATUS: DATASET_VALIDATED]</span> Ingested 697 plots. Ready for spatial disjoint block partitioning.<br>
+            <span style="color: #34d399;">[STATUS: DATASET_VALIDATED]</span> Ingested {n_plots} plots. Ready for spatial disjoint block partitioning.<br>
             • Algorithm: 2D Uniform Spatial Grid Block Partitioning<br>
             • Engine: NumPy Cartesian Meshgrid & Haversine Distance<br>
             • Objective: Eliminate spatial autocorrelation leakage between adjacent plots (d &gt; 300m)

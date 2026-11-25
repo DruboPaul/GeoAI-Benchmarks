@@ -6,7 +6,7 @@ coordinates.  Works with two backends:
   1. rasterio (preferred, full CRS/affine support)
   2. PIL (Pillow) fallback using simple linear geotransform
 
-Authors: Drubo / Antigravity
+Authors: Drubo Paul
 """
 
 import os

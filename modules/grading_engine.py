@@ -8,7 +8,7 @@ Scoring formula:
     score_t = clamp(1 − RMSE_agent / RMSE_baseline, 0, 1)
     final   = mean(score_t  for t in targets)
 
-Authors: Drubo / Antigravity
+Authors: Drubo Paul
 """
 
 import numpy as np
@@ -34,7 +34,7 @@ TARGET_UNITS = {
 TARGET_DESCRIPTIONS = {
     "stem_count": "Number of live tree stems (DBH ≥ 2.54 cm)",
     "basal_area": "Total basal area of trees",
-    "carbon_storage": "Above-ground carbon stored",
+    "carbon_storage": "Total above- and below-ground carbon stored",
     "leaf_area": "Total leaf area",
     "percent_tree_cover": "Canopy cover percentage",
 }

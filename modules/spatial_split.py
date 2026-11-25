@@ -4,7 +4,7 @@ Spatial Block Split Module — Drubo Live Benchmark Platform
 Splits plot data into train/test sets using geographic grid blocks to prevent
 spatial autocorrelation leakage.
 
-Authors: Drubo / Antigravity
+Authors: Drubo Paul
 """
 
 import numpy as np
